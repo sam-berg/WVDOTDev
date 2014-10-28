@@ -1,0 +1,3 @@
+﻿define({
+    showLegend: "Afişare legendă"
+});

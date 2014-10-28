@@ -1,0 +1,3 @@
+﻿define({
+    showLegend: "Rodyti legendą"
+});

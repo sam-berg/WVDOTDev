@@ -1,0 +1,9 @@
+{
+  "name": "WVDOT Search",
+  "platform": "HTML",
+  "version": "0.0.1",
+  "author": "",
+  "description": "Search for coal sites and trucking incidents",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}

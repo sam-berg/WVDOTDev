@@ -1,0 +1,28 @@
+
+<div style="width:100%; height:100%;" >
+
+
+  <div>[${config.mainMessage}]</div>
+
+  <label for="txtSearch">Search:</label>
+  <input type="text" name="txtSearch" value="Washington"
+         data-dojo-type="dijit/form/TextBox"
+         data-dojo-props="trim:true, propercase:true" id="txtSearch" />
+
+  <button id="progButtonNode" data-dojo-attach-event="click:_mainAction" type="button">Run</button>
+
+
+  <table data-dojo-type="dojox/grid/DataGrid"  data-dojo-id="grid" id="grid" data-dojo-props="rowsPerPage:'5', rowSelector:'20px'">
+
+    <thead>
+      <tr>
+        <th field="Commander" class="auto-style1">Commander</th>
+        <th field="Battle_id">Battle</th>
+
+      </tr>
+    </thead>
+
+  </table>
+
+
+</div>

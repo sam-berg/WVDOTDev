@@ -1,0 +1,12 @@
+{
+  "name": "WVDOT Sites",
+  "platform": "HTML",
+  "version": "0.0.1",
+  "author": "",
+  "description": "Zoom to coal sites",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+   "properties": {
+    "inPanel": false
+      }
+}

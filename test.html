@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no"/>
+    <title>Simple Map</title>
+    <link rel="stylesheet" href="http://js.arcgis.com/3.11/esri/css/esri.css">
+    <style>
+      html, body, #map {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #FFF;
+        overflow: hidden;
+        font-family: "Trebuchet MS";
+      }
+    </style>
+    <script src="http://js.arcgis.com/3.11/"></script>
+
+  </head>
+
+	<body class="claro">
+		
+      <select data-dojo-type="dijit/form/Select" name="cmbSites"  id="cmbSites" >
+    <option>Apples</option>
+    <option selected>Oranges</option>
+    <option>Pears</option>
+</select>
+
+
+    <input type="text" name="firstname" value="testing testing"
+    data-dojo-type="dijit/form/TextBox"
+    data-dojo-props="trim:true, propercase:true" id="firstname" />
+
+	</body>
+
+</html>

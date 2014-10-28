@@ -1,0 +1,3 @@
+﻿define({
+    showLegend: "Zobrazit legendu"
+});
