@@ -48,7 +48,7 @@ function (declare, BaseWidget, TabContainer, ContentPane, parser, Select, Memory
 
       var p = {};
       p.label = "(select an Incident #)";
-      p.is = "(select an incident)";
+      p.id = "(select an incident)";
       incidentsStore.data.push(p);
 
       var p2 = {};
@@ -93,10 +93,13 @@ function (declare, BaseWidget, TabContainer, ContentPane, parser, Select, Memory
         var os = new ObjectStore({ objectStore: incidentsStore });
         if(cmb1!=null)cmb1.attr('store', os);
         if (cmb1 != null) cmb1.startup();
+        
 
         var os2 = new ObjectStore({ objectStore: citationsStore });
         if (cmb2 != null) cmb2.attr('store', os2);
         if (cmb2 != null) cmb2.startup();
+
+        
       }));
      queryTask.execute(query);
   
