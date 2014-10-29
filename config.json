@@ -34,22 +34,7 @@
           "bottom": 25
         }
       },
-      {
-        "position": {
-          "left": 55,
-          "top": 45,
-          "width": 400,
-          "height": 410
-        },
-        "placeholderIndex": 1,
-        "id": "_5",
-        "positionRelativeTo": "map",
-        "name": "BasemapGallery",
-        "label": "Basemap Gallery",
-        "isThemeWidget": false,
-        "uri": "widgets/BasemapGallery/Widget",
-        "config": "widgets/BasemapGallery/config_Basemap Gallery.json"
-      },
+  
       {
         "uri": "widgets/Geocoder/Widget",
         "position": {
@@ -61,8 +46,8 @@
         "label": "WV DOT Sites",
         "uri": "widgets/devwidgets/wvdotSites/Widget",
         "position": {
-          "right": 400,
-          "top": 5
+          "left": 45,
+          "top": 50
         }
       },
       {
@@ -161,7 +146,19 @@
       },
       {
         "uri": "widgets/LayerList/Widget"
+      },
+
+      {
+   
+        "id": "_5",
+
+        "name": "BasemapGallery",
+        "label": "Basemap Gallery",
+
+        "uri": "widgets/BasemapGallery/Widget",
+        "config": "widgets/BasemapGallery/config_Basemap Gallery.json"
       }
+
     ]
   }
 }
