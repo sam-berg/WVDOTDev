@@ -6,6 +6,7 @@
   "appId": "senJpIJA845L4FlP",
   "title": "Coal Research Transportation System Viewer v.Next (prototype)",
   "subtitle": "with ArcGIS WebApp Builder",
+
   "geometryService": "http://tasks.arcgisonline.com/ArcGIS/rest/services/Geometry/GeometryServer",
   "links": [
     {
